@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    /* background-color: lightblue; */
+}
+body{
+    font-family: "Poppins" , sans-serif;
+}
+.navigation a{
+    text-decoration: none;
+    color: orange;
+    font-weight: 100;
+    font-size: 15px;
+    transition: 0.3s;
+    
+}
+.navigation a:hover{
+    background-color: #F9E79F ;
+    transform: scale(1.05);
+    padding: 10px;
+    font-weight: 200;
+    border-radius: 15px;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+header{
+    position: relative;
+    top: 0;
+    max-width: 81rem;
+    width: 100%;
+    padding: 30px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    z-index:10 ;
+}
+header .logo{
+    position: relative;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+header.navigation a{
+    color: orange;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: orange;
+    text-decoration: none;
+
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+div .navigation{
+    color: orange;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+}
+.content .left-info h2{
+    color: #059099 ;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.content .left-info h2 span{
+    font-weight: 700;
+}
+
+.content .left-info p{
+    color: #0DC5D1 ;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.content .info-btn{
+    color: #fff;
+    background-color: orange;
+    text-decoration: none;
+    text-transform: unset;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.icons{
+    display: inline-block;
+    border: none;
+    align-items: center;
+    padding: 30px 100px;
+    font-size: 20px;
+    color: #059099;
+    
+
+}
+
+
